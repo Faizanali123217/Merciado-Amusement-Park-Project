@@ -1,0 +1,28 @@
+body {
+    background-color:  #f8f9fa;
+    color: black;
+}
+.section-title{
+   text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}      
+
+.gallery-card {
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+border: none;
+}
+.gallery-card img {
+transition: transform 0.5s ease;
+}
+
+.gallery-card:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.gallery-card:hover img {
+transform: scale(1.2);
+}
+

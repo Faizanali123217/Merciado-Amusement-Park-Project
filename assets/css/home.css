@@ -1,0 +1,124 @@
+body{
+    background-color:  #f8f9fa;
+    color: black;
+}
+.carousel-item {
+    position: relative;
+    height: 100vh;
+}
+.carousel-video, .carousel-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    max-width: 90%;
+}
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+    .carousel-item {
+        height: 50vh;
+    }
+}
+@media (max-width: 576px) {
+    .carousel-caption h1 {
+        font-size: 1.5rem;
+    }
+    .carousel-caption p {
+        font-size: 0.875rem;
+    }
+    .carousel-item {
+        height: 40vh;
+    }
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: black;
+    text-transform: uppercase;
+   
+}
+
+.zones-cards{
+    border: none;
+    box-shadow: 10px 10px 10px rgb(160, 158, 158);
+}
+.card:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+.btn-book, .btn-explore, .btn-learn, .btn-subscribe {
+    background-color:orangered;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.btn-book:hover, .btn-explore:hover, .btn-learn:hover , .btn-subscribe:hover {
+    background-color:orangered;
+    color: black;
+    transform: scale(1.05);
+}
+
+.attraction-card {
+border: none;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.attraction-card:hover {
+transform: translateY(-10px) scale(1.05);
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+.gallery-card img {
+    transition: transform 0.5s ease;
+}
+
+.gallery-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.gallery-card:hover img {
+    transform: scale(1.2);
+}
+
+  
+.fa-umbrella-beach,.fa-train,.fa-utensils,.fa-music {
+    color: #f39c12;
+}
+  
+.newsletter-signup{
+background-color: #fff;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+  

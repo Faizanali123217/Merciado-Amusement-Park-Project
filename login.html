@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Amusement Park</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+     <!-- Icons Library -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+     <!-- Login Signup styling -->
+     <link rel="stylesheet" href="assets/css/loginsignup.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Login to Amusement!</h1>
+        <form onsubmit="handleLogin(event)">
+            <label for="loginEmail">Email Address:</label>
+            <input type="email" id="loginEmail" required>
+
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" required>
+
+            <div class="checkbox">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember Me</label>
+            </div>
+
+            <button type="submit">Login</button>
+            <p class="switch-form">Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </form>
+    </div>
+ 
+</body>
+</html>
+<script src="assets/js/bootstrap.js"></script>
+
+<script>
+    function handleLogin(event) {
+        event.preventDefault();
+        const email = document.getElementById('loginEmail').value;
+        const password = document.getElementById('loginPassword').value;
+
+        const savedEmail = sessionStorage.getItem("email");
+        const savedPassword = sessionStorage.getItem("password");
+        if (savedEmail==email && savedPassword == password) {
+            window.location.href="home.html"
+            // Redirect or perform further actions
+        } else {
+            alert('Invalid email or password');
+        }
+    }
+</script>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <!-- Font Awesome Library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <!-- Icons Library -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+     <!-- nav start -->
+     <nav id="nav"></nav>
+     <!-- nav end -->
+
+     <!-- banner start -->
+       <!-- Hero Carousel Start -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Slide 1 - Video -->
+            <div class="carousel-item active">
+                <video autoplay muted loop class="carousel-video">
+                    <source src="assets/images/banner pics/video1.mp4" type="video/mp4">
+                </video>
+                <div class="carousel-overlay"></div>
+                <div class="carousel-caption">
+                    <h1>Welcome to Merciado Amusement Park</h1>
+                    <p>Experience the Thrill & Fun All Day Long</p>
+                    <a href="Book Your Tickets Now.html" class="btn btn-book btn-lg mt-3">Book Your Tickets Now</a>
+                </div>
+            </div>
+            <!-- Slide 2 - Image -->
+            <div class="carousel-item">
+                <img src="assets/images/banner pics/pic1.webp" class="carousel-img" alt="Image Slide">
+                <div class="carousel-overlay"></div>
+                <div class="carousel-caption">
+                    <h1>Explore the Adventure Zone</h1>
+                    <p>Thrilling rides and attractions await you!</p>
+                    <a href="Adventure Zone explore.html" class="btn btn-book btn-lg mt-3">Explore More</a>
+                </div>
+            </div>
+            <!-- Slide 3 - Video -->
+            <div class="carousel-item">
+                <img src="assets/images/banner pics/pic2.jpg" class="carousel-img" alt="Image Slide">
+                <div class="carousel-overlay"></div>
+                <div class="carousel-caption">
+                    <h1>Unforgettable Water Adventures</h1>
+                    <p>Endless fun at the water park!</p>
+                    <a href="Water Park explore.html" class="btn btn-book btn-lg mt-3">Explore More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Hero Carousel End -->
+         <!-- banner end -->
+       <!-- Zones and Attractions Section Start-->
+<section class="container my-5">
+    <h2 class="section-title text-center" data-aos="zoom-in">Our Zones & Attractions</h2>
+    <div class="row text-center" data-aos="fade-up"
+    data-aos-duration="3000">
+        <div class="col-md-4">
+            <div class="card zones-cards shadow-sm">
+                <img src="assets/images/home pics/pic1.jpg" class="card-img-top" alt="Adventure Zone">
+                <div class="card-body">
+                    <h5 class="card-title" >Adventure Zone</h5>
+                    <p class="card-text">Feel the rush of thrilling rides and attractions.</p>
+                    <a href="Adventure Zone explore.html" class="btn btn-explore">Explore More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card zones-cards shadow-sm">
+                <img src="assets/images/home pics/pic2.jpg" class="card-img-top" alt="Water Park">
+                <div class="card-body">
+                    <h5 class="card-title">Water Park</h5>
+                    <p class="card-text">Endless fun in our water attractions .</p>
+                    <a href="Water Park explore.html" class="btn btn-explore">Explore More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card zones-cards shadow-sm">
+                <img src="assets/images/home pics/pic3.jpg" class="card-img-top" alt="Safari Zone">
+                <div class="card-body">
+                    <h5 class="card-title">Safari Zone</h5>
+                    <p class="card-text">Get up close with exotic animals in our safari.</p>
+                    <a href="safari-zone explore.html" class="btn btn-explore">Explore More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Zones and Attractions Section End-->
+
+<!-- Featured Attractions Section Start -->
+<section class="container my-5">
+    <h2 class="section-title text-center" data-aos="zoom-in">Featured Attractions</h2>
+    <p class="text-center" data-aos="zoom-in">Discover the highlights of Merciado Amusement Park!</p>
+    <div class="row text-center" data-aos="fade-up"
+    data-aos-duration="3000">
+        <!-- First Card -->
+        <div class="col-md-4">
+            <div class="card shadow-sm attraction-card">
+                <img src="assets/images/home pics/feature pic1.jpg" class="card-img-top" alt="Thrill Ride">
+                <div class="card-body">
+                    <h5 class="card-title">Thrill Ride</h5>
+                    <p class="card-text">Experience the thrill of high-speed rides!</p>
+                    <a href="Thrill Ride.html" class="btn btn-learn">Learn More</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Second Card -->
+        <div class="col-md-4">
+            <div class="card shadow-sm attraction-card">
+                <img src="assets/images/home pics/feature pic2.jpg" class="card-img-top" alt="Water Slide">
+                <div class="card-body">
+                    <h5 class="card-title">Water Slide</h5>
+                    <p class="card-text">Dive into fun with our amazing water slides.</p>
+                    <a href="Water Slide.html" class="btn btn-learn">Learn More</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Third Card -->
+        <div class="col-md-4">
+            <div class="card shadow-sm attraction-card">
+                <img src="assets/images/home pics/feature pic3.jpg" class="card-img-top" alt="Kids Zone">
+                <div class="card-body">
+                    <h5 class="card-title">Kids Zone</h5>
+                    <p class="card-text">Fun activities specially for kids.</p>
+                    <a href="kids zone.html" class="btn btn-learn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Featured Attractions Section End -->
+
+<!-- Upcoming Events Start -->
+<section class="container my-5 bg-light p-4 rounded">
+    <h2 class="section-title text-center" data-aos="zoom-in">Upcoming Events</h2>
+    <ul class="list-unstyled text-center" data-aos="zoom-in">
+        <li><strong>Halloween Bash</strong> - October 31st | 6 PM - Midnight</li>
+        <li><strong>Christmas Extravaganza</strong> - December 24th | All Day</li>
+    </ul>
+</section>
+<!-- Upcoming Events End -->
+
+<!-- Gallery Section Start-->
+<section class="container my-5">
+    <h2 class="section-title text-center" data-aos="zoom-in">Gallery</h2>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card shadow-sm gallery-card" data-aos="fade-up"
+            data-aos-duration="1000">
+                <img src="assets/images/gallery pics/pic1.jpg" class="card-img-top" alt="Rides and Attractions">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card shadow-sm gallery-card" data-aos="fade-up"
+            data-aos-duration="1000">
+                <img src="assets/images/gallery pics/pic2.jpg" class="card-img-top" alt="Water Park">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card shadow-sm gallery-card" data-aos="fade-up"
+            data-aos-duration="1000">
+                <img src="assets/images/gallery pics/pic3.jpg" class="card-img-top" alt="Entertainment Shows">
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card shadow-sm gallery-card" data-aos="fade-up"
+            data-aos-duration="1000">
+                <img src="assets/images/gallery pics/pic4.jpg" class="card-img-top" alt="Theme Park">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Gallery Section End-->
+
+ <!-- Entertainment Section Start -->
+ <div class="container my-5">
+    <h2 class="section-title text-center" data-aos="zoom-in">Entertainment</h2>
+
+    <!-- Entertainment Carousel -->
+    <div id="entertainmentCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/images/entertainments pics/pic1.jpg" class="d-block w-100" alt="Concert Night">
+                <div class="carousel-caption">
+                    <h5>Concert Nights</h5>
+                    <p>Experience live music performances and vibrant energy.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/entertainments pics/pic2.jpg" class="d-block w-100" alt="Magic Show">
+                <div class="carousel-caption">
+                    <h5>Magic Shows</h5>
+                    <p>A mesmerizing experience full of illusions and wonder.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/entertainments pics/pic3.jpg" class="d-block w-100" alt="Fireworks Display">
+                <div class="carousel-caption">
+                    <h5>Fireworks Display</h5>
+                    <p>End your day with a stunning fireworks extravaganza.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#entertainmentCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#entertainmentCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<!-- Entertainment Section End -->
+
+<!-- Why Choose Merciado Amusement Park Start -->
+<section class="text-center py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title text-center mb-5" data-aos="zoom-in">Why Choose Merciado Amusement Park?</h2>
+      <div class="row" data-aos="fade-up"
+      data-aos-duration="1000">
+        <div class="col-md-3">
+          <i class="fas fa-umbrella-beach fa-3x mb-3"></i>
+          <h5 class="card-title mt-3">45 Acres of Fun</h5>
+          <p class="card-text">Spread across 45 acres, full of thrilling attractions.</p>
+        </div>
+        <div class="col-md-3">
+            <i class="fas fa-train fa-3x mb-3"></i>
+          <h5 class="card-title mt-3">Exciting Rides</h5>
+          <p class="card-text">Enjoy our thrilling rides and family-friendly activities.</p>
+        </div>
+        <div class="col-md-3">
+          <i class="fas fa-utensils fa-3x mb-3"></i>
+          <h5 class="card-title mt-3">Fine Dining</h5>
+          <p class="card-text">Multiple restaurants offering delicious cuisines.</p>
+        </div>
+        <div class="col-md-3">
+          <i class="fas fa-music fa-3x mb-3"></i>
+          <h5 class="card-title mt-3">Live Entertainment</h5>
+          <p class="card-text">Live shows and performances to keep you entertained.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Why Choose Merciado Amusement Park Start End-->
+ 
+  
+<!--  Newsletter Signup Form Start-->
+<section class="container my-5" data-aos="zoom-in">
+    <div class="newsletter-signup text-center p-4 rounded">
+        <h2 class="section-title" data-aos="zoom-in">Stay Updated!</h2>
+        <p data-aos="zoom-in">Subscribe to our newsletter for the latest news and special offers.</p>
+        <form id="newsletterForm" class="form-inline justify-content-center" data-aos="zoom-in">
+            <input type="email" id="email" class="form-control mr-2" placeholder="Enter your email" pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-z]{2,}$" required>
+            <button type="submit" class="btn btn-subscribe mt-3">Subscribe</button>
+        </form>
+        <p id="message" class="mt-3"></p>
+    </div>
+</section>
+<!--  Newsletter Signup Form End-->
+
+
+<!-- footer start -->
+ <footer id="footer"></footer>
+ <!-- footer end-->
+
+</body>
+</html>
+<script src="assets/js/bootstrap.js"></script>
+<script src="main.js"></script>
+<!-- AOS Animation Library-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+<script>
+    document.getElementById('newsletterForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const email = document.getElementById('email').value;
+        
+        if (email) {
+            document.getElementById('message').textContent = 'Thank you for subscribing!';
+            document.getElementById('message').style.color = 'black';
+            document.getElementById('newsletterForm').reset(); 
+        } else {
+            document.getElementById('message').textContent = 'Please enter a valid email.';
+            document.getElementById('message').style.color = 'red';
+        }
+    });
+</script>

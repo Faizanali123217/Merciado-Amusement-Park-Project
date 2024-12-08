@@ -1,0 +1,108 @@
+body {
+    background-color:  #f8f9fa;
+   color: black;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   padding: 30px;
+   text-align: center;
+}
+
+.contactheading {
+   margin: 0;
+   font-size: 2.5rem;
+   color: black;
+   font-size: 2.5rem;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.maindiv {
+   max-width: 800px;
+   margin: 20px auto;
+   padding: 20px;
+   background:  #fff;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+   color: black;
+   border-bottom: 2px solid orangered;
+   padding-bottom: 5px;
+}
+
+.contact-info, .visitor-info, .contact-form, .social-media {
+   padding: 15px;
+}
+
+input, textarea {
+   width: 100%;
+   padding: 10px;
+   margin: 5px 0 15px;
+   background-color: #fff;
+   color: black;
+   border: 1px solid #555;
+   border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+   border: 1px solid blue;
+   outline: none;
+}
+
+button {
+   width: 100%;
+   padding: 10px;
+   background-color: orangered;
+   color: white;
+   font-weight: bold;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+   background-color:orangered;
+   color: black;
+   transform: scale(1.05);
+  
+}
+
+.social-media ul {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+}
+
+.social-media li {
+   margin: 0 10px;
+}
+
+.social-media a {
+   font-size: 1.5em;
+   color: inherit;
+   transition: color 0.3s;
+}
+
+.social-media a:hover {
+   color: orangered;
+}
+
+.contactparagraph {
+   text-align: center;
+   padding: 20px;
+   color: black;
+   margin-top: 20px;
+}
+
+/* Map iframe styling */
+.map-container {
+   margin-top: 20px;
+   border-radius: 5px;
+   height: 300px;
+}

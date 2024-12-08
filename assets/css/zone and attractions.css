@@ -1,0 +1,33 @@
+body{
+    background-color:  #f8f9fa;
+    color: black;
+}
+/* Sections Styling start*/
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+/* Cards Hover Effect */
+.card{
+    border: none;
+}
+.card:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+  /* Button Hover Effect */
+  .btn-explore {
+    background-color:orangered;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.btn-explore:hover {
+    background-color:orangered;
+    color: black;
+    transform: scale(1.05);
+}

@@ -1,0 +1,21 @@
+body {
+    background-color:  #f8f9fa;
+    color: black;
+}
+.form-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.btn-submit {
+    background-color:orangered;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.btn-submit:hover {
+    background-color:orangered;
+    color: black;
+    transform: scale(1.05);
+}

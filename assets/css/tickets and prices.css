@@ -1,0 +1,103 @@
+body {
+    background-color:  #f8f9fa;
+    color: black;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    margin-top: 3rem ;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+
+.section-title:after {
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #fff;
+    margin: 1rem auto 0;
+}
+
+/* Table Styling */
+.table {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+   
+}
+
+.table thead {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 1rem;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+.price {
+    color: #FFEB3B;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.btn-book-now {
+    background-color:orangered;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.btn-book-now:hover {
+    background-color:orangered;
+    color: black;
+    transform: scale(1.05);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .table th, .table td {
+        padding: 0.8rem;
+    }
+
+    .btn-book-now {
+        padding: 0.6rem 1.2rem;
+    }
+}

@@ -1,0 +1,20 @@
+body{
+    background-color:  #f8f9fa;
+    color: black;
+}
+.zone-title {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    text-align: center;
+}
+.btn-book-now{
+    background-color:orangered;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.btn-book-now:hover{
+    background-color:orangered;
+    color: black;
+    transform: scale(1.05);
+}

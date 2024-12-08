@@ -1,0 +1,73 @@
+
+.navigation{
+     background-color: black;
+}
+.logo{
+    height: 12vh;
+    width: 100%;
+}
+.navcontent{
+    font-weight: 700;
+    color:white;
+    margin: 20px;
+    text-decoration: none;   
+}
+.navcontent:hover{
+    color: orangered;
+    text-decoration: underline;
+    text-underline-offset: 25px;
+}
+.dropanchor{
+    text-decoration: none;
+}
+.dropanchor:hover {
+    background-color: black; 
+    color: orangered 
+  }
+  .navbar-toggler-icon {
+    background-color: white !important;
+    border-radius: 14%;
+    padding: 22px;
+
+    }
+    .navbar .nav-item .nav-link .fas.fa-user {
+      font-size: 150%;
+      margin-left: 40px;
+
+    }
+.footer {
+    background-color:black;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.footer-title {
+    color: orangered;
+    font-weight: 700;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footer-link:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+.social-icon {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.social-icon:hover {
+    color: orangered;
+    transform: translateY(-3px);
+}
+.nav-link.show{
+color: white !important; }

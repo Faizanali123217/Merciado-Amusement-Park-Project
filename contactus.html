@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contactus.css">
+     <!-- Font Awesome Library-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+     <!-- Icons Library -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+     <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+      <!-- nav start -->
+      <nav id="nav"></nav>
+      <!-- nav end -->
+
+      <!-- contact us start-->
+      <header>
+        <h1 class="contactheading" data-aos="zoom-in">Contact Us</h1>
+        <p class="contactparagraph" data-aos="zoom-in">We’re here to help you enjoy every moment at Merciado Amusement Park!</p>
+    </header>
+
+    <main class="maindiv" data-aos="fade-up"
+    data-aos-duration="1000">
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Phone:</strong> +1234-567-8900</p>
+            <p><strong>Email:</strong> <a href="info@merciadopark.com">info@merciadopark.com</a></p>
+            <p><strong>Address:</strong>123 Fun Ave, Adventure City, TX 78910</p>
+        </section>
+
+        <section class="visitor-info">
+            <h2>Visitor Information</h2>
+            <p><strong>Park Hours:</strong> 24 hours</p>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.0753121994137!2d67.23536631540913!3d24.909856684030578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f5a4ecf5a85%3A0xe4a7c0f1f9fa84b2!2sB-36%20Kausar%20Town!5e0!3m2!1sen!2s!4v1638772939451!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" pattern="[A-Za-z]{9}" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section class="social-media">
+            <h2>Follow Us</h2>
+            <p>Stay connected with us on social media!</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/yourpage" class="social-icon"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/yourusername" class="social-icon"><i class="bi bi-instagram"></i></a>
+                <a href="https://twitter.com/yourusername" class="social-icon"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.youtube.com/c/yourchannel" class="social-icon"><i class="bi bi-youtube"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <div class="contactparagraph">
+        <p>Thank you for reaching out! We look forward to making your visit unforgettable.</p>
+    </div>
+      <!-- contact us End--> 
+
+        <!-- footer start -->
+ <footer id="footer"></footer>
+ <!-- footer end-->
+</body>
+</html>
+<script src="assets/js/bootstrap.js"></script>
+<script src="main.js"></script>
+<!-- AOS Animation Library-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert("Thank you for contacting us. We'll get back to you soon!");
+        document.getElementById('contactForm').reset();
+    });
+</script>
